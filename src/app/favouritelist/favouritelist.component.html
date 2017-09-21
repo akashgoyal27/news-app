@@ -1,0 +1,26 @@
+<div class="container">
+<div class="row">
+<div class="col-xl-6" *ngFor="let crd of data1;let i=index">
+<div class="card" >
+            <div class="card-block" >
+            <img class="img-fluid" class="im" src={{crd.urlToImage}} alt="Business"> 
+              <h2 class="card-text">{{crd.title}}</h2>
+              <p class="card-text"><small>By:<em>{{crd.author}} {{crd.publishedAt}}</em></small></p>
+              <hr>
+              <p>Review: {{crd.review}}</p>
+              <button class=" btn btn-danger" (click)="deletenews(crd.id)">Remove</button>
+
+              <a href="#full{{i}}" data-toggle="collapse" class="btn btn-primary">Description</a>
+              <br>
+              <br>
+              <input type ="text" placeholder="Your Review" #in>
+              <button type="button"  class="btn btn-outline-success my-2 my-sm-0" (click)="updatenews(crd,in.value)">update</button>
+              
+              <div class="collapse" id="full{{i}}">
+              <p class="card-text">{{crd.description}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+

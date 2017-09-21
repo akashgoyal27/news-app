@@ -1,0 +1,8 @@
+<form class="form-inline my-2 my-lg-0">
+<input  class="but" [(ngModel)]="temp" placeholder ="search channels" list="channel" name="search">
+<button class="btn btn-outline-success my-2 my-sm-0" (click)="displayNews(temp)">search</button>
+<datalist id="channel">
+<option *ngFor="let h1 of data.sources" value="{{h1.id}}"></option>
+</datalist>
+</form>
+

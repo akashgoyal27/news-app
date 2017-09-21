@@ -1,0 +1,16 @@
+
+<div class="card">
+            <div class="card-block" >
+            <img class="img-fluid" src={{displaylist.urlToImage}} class="im" alt="Business"> 
+              <h2 class="card-text">{{displaylist.title}}</h2>
+              <p class="card-text"><small><em>By:{{displaylist.author}} {{displaylist.publishedAt}}</em></small></p>
+              <hr>
+              <a class="fav" (click)="addFavourite(displaylist)"><i class="fa fa-2x fa-heart-o" aria-hidden="true"></i>
+              </a>
+              <a href="#full{{i}}" data-toggle="collapse" class="btn btn-primary">Description</a>
+              <div class="collapse" id="full{{i}}">
+              <p class="card-text">{{displaylist.description}}</p>
+              </div>
+            </div>
+</div>
+

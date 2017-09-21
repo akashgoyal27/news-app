@@ -1,0 +1,70 @@
+.bg-primary {
+ background-color: #000 !important;
+}
+
+.bg-circle
+{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 14px 4px;
+  color: #ececec;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+  width: 50px;
+  height: 50px;
+  color:smoke;
+  padding: 8px 2px;
+  border: 2px solid;
+  border-color: smoke;
+  border-radius: 50%;
+}
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.jumbotron{
+background-image: url('http://www.totemic.co.uk/wp-content/uploads/2017/07/news2-e1467292332241.jpg');
+height:300px;
+background-size: 100% 100%;
+}
+.item{
+  color:white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.sign{
+  padding-right: 10px;
+}
+.but:hover{
+  font-color:white;
+  background:grey;
+}
+.log{
+  margin-right: 10px;
+
+}
+.navbar{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwmv3LEEXolKkCMMR4edq3_YMT7yausHUsZnj2yAFOfEqPCLU');
+background-size: cover
+}
+.foot{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwmv3LEEXolKkCMMR4edq3_YMT7yausHUsZnj2yAFOfEqPCLU');
+background-size: cover
+
+
+}
